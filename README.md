@@ -7,7 +7,7 @@ Content is organized by **week**. Each week has its own folder under `notes/` an
 `exercises/`.
 
 ## Topics Covered
-- [ ] Algorithms & Basic Python Programming
+- [x] Algorithms & Basic Python Programming
 - [ ] Variables, Expressions, Arithmetic & Flowcharts
 - [ ] Conditional Execution
 - [ ] Loops
@@ -21,16 +21,19 @@ Content is organized by **week**. Each week has its own folder under `notes/` an
 - [ ] CRUD Operations
 
 ## Repository Structure
-Basic Programming With Python
-├── Exercises/
-│   ├── week-01-Introduction/
-│   ├── week-02-Variables-Expressions-Arithmetic-Flowcharts/
-│   ├── week-03-Conditional_Execution/
-│   └── etc
-├── Notes/
-│   ├── week-01-Introduction/
-│   ├── week-02-Variables-Expressions-Arithmetic-Flowcharts/
-│   ├── week-03-Conditional_Execution/
-│   └── etc..
-├── Sandboxes/
+
+## Repository Structure
+
+```
+.
+├── exercises/
+│   ├── week-01-introduction/
+│   ├── week-02-variables-expressions-arithmetic-flowcharts/
+│   └── week-03-conditional-execution/
+├── notes/
+│   ├── week-01-introduction/
+│   ├── week-02-variables-expressions-arithmetic-flowcharts/
+│   └── week-03-conditional-execution/
+├── sandboxes/
 └── README.md
+```
