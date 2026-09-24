@@ -1,8 +1,12 @@
-Buku_BelumBalik = int(input("Berapa buku yang belum engkau kembalikan? "))
+Buku_dikembalikan = int(input("Masukkan buku yang engkau belum kembalikan:  "))
 
-if Buku_BelumBalik < 3 and Buku_BelumBalik > 0:
-    print("Boleh minjam buku!")
-elif Buku_BelumBalik >= 3:
-    print("Tidak boleh minjam buku")
-else:
-    print("Angka negatif dan 0 tidak boleh diinput!")
+try:
+    if Buku_dikembalikan < 0:
+        print("Input tidak valid: Angka negatif tidak diperkenankan.")
+    elif Buku_dikembalikan < 3:
+        print("Boleh minjam buku!")
+    else:
+        print("Tidak boleh minjam buku")
+
+except ValueError:
+    print("Input tidak valid: Harap masukkan angka bulat.")
