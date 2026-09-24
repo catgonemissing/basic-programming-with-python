@@ -1,18 +1,28 @@
-Status = input("Apakah kamu mahasiswa aktif? (Ya/Tidak) ")
-Penghasilan_ortu = int(input("Berapa penghasilan orang tuamu? (Rupiah) "))
-IPK = float(input("Berapa IPKmu? "))
-Prestasi = ("Apakah punya prestasi? (Ya/Tidak)")
+# Ask for status first and format the string to handle uppercase/lowercase/spaces
+status = input("Apakah kamu mahasiswa aktif? (ya/tidak): ").strip().lower()
 
-if Status == "Ya" :
-    if Penghasilan_ortu <= 4000000 and IPK >= 3.50:
-        print("Beasiswa penuh")
-    elif Penghasilan_ortu >4000000 and IPK >= 3.50:
-        print("Beasiswa parsial")
-    elif IPK >= 3.00 and IPK <= 3.50 and Penghasilan_ortu < 4000000 and Prestasi == "Ya":
-        print("Beasiswa parsial")
-    else :
-        print("Anda memiliki salah input")
-elif Status == "Tidak":
+if status == "tidak":
     print("Tidak memenuhi syarat")
-else :
-    print("anda memiliki salah input")
+elif status != "ya":
+    print("Input salah: Harap masukkan 'ya' atau 'tidak'.")
+else:
+    # Only ask the rest of the questions IF they are an active student
+    try:
+        penghasilan_ortu = int(input("Berapa penghasilan orang tuamu? (Rupiah): "))
+        ipk = float(input("Berapa IPKmu?: "))
+        prestasi = input("Apakah punya prestasi? (ya/tidak): ").strip().lower()
+
+        if ipk >= 3.50:
+            if penghasilan_ortu <= 4000000:
+                print("Beasiswa penuh")
+            else:
+                print("Beasiswa parsial")
+                
+        elif 3.00 <= ipk < 3.50 and penghasilan_ortu <= 4000000 and prestasi == "ya":
+            print("Beasiswa parsial")
+            
+        else:
+            print("Tidak memenuhi syarat beasiswa") 
+
+    except ValueError:
+        print("Harap masukkan angka yang valid untuk penghasilan dan IPK!")
