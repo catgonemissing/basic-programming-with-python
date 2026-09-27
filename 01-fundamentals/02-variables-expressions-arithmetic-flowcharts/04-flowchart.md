@@ -23,4 +23,4 @@ So, a flowchart is to represent the components found in a programming language
 | ![Off-page Connector](./../../assets/flowchart-symbols/off-page-connector.svg) | **Off-page Connector** — links flow to a different page |
 | ![Document](./../../assets/flowchart-symbols/document.svg) | **Document** — represents a single document |
 | ![Multi-document](./../../assets/flowchart-symbols/multi-document.svg) | **Multi-document** — represents multiple documents |
-| ![Hard Disk](./../../01-fundamentals/assets/flowchart-symbols/hard-disk.svg) | **Hard Disk** — represents data stored on disk |
+| ![Hard Disk](./../../assets/flowchart-symbols/hard-disk.svg) | **Hard Disk** — represents data stored on disk |
