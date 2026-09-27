@@ -2,13 +2,9 @@
 
 Personal learning repository of "Algorithmns and Basic Python" 
 
-## About
-Content is organized by **week**. Each week has its own folder under `notes/` and a matching one under
-`exercises/`.
-
 ## Topics Covered
 - [x] Algorithms & Basic Python Programming
-- [ ] Variables, Expressions, Arithmetic & Flowcharts
+- [x] Variables, Expressions, Arithmetic & Flowcharts
 - [ ] Conditional Execution
 - [ ] Loops
 - [ ] Procedures & Recursive Functions
