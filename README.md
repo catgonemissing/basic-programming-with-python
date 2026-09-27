@@ -1,6 +1,6 @@
-# ITK Course Notes — Algoritme dan Pemrograman (A2627)
+# Intro
 
-Personal learning repository for the "Algoritme dan Pemrograman" course. Containing study notes, exercises, and a Python testing ground.
+Personal learning repository of "Algorithmns and Basic Python" 
 
 ## About
 Content is organized by **week**. Each week has its own folder under `notes/` and a matching one under
@@ -20,20 +20,5 @@ Content is organized by **week**. Each week has its own folder under `notes/` an
 - [ ] File Read/Write
 - [ ] CRUD Operations
 
-## Repository Structure
-
-## Repository Structure
-
-```
-.
-├── exercises/
-│   ├── week-01-introduction/
-│   ├── week-02-variables-expressions-arithmetic-flowcharts/
-│   └── week-03-conditional-execution/
-├── notes/
-│   ├── week-01-introduction/
-│   ├── week-02-variables-expressions-arithmetic-flowcharts/
-│   └── week-03-conditional-execution/
-├── sandboxes/
-└── README.md
-```
+## References
+* ITK: Algoritme dan Pemrograman - A2627
