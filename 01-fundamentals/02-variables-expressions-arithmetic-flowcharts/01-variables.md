@@ -3,8 +3,8 @@
 A variable is a **named container that stores a value in memory**. You give it a name, assign it a value, and can use or change that value later in the program.
 
 Think of it as a labeled box:
-- The **label** is the variable name
-- The **contents** are the value
+* The **label** is the variable name
+* The **contents** are the value
 
 you can change the contents of the label and likewise
 

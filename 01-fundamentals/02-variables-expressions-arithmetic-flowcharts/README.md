@@ -4,8 +4,8 @@ There will be additional Pseudocode in the end. So, hold it a little longer... w
 
 ## Topics Covered
 
-* **Variables**     ← 
-* **Expressions**   ←
-* **Arithmetics**   ←
-* **Flowchart**     ← 
-* **Pseudocode**    ←
+* **Variables**     ← declaration, naming, data types
+* **Expressions**   ← evaluation, operator precedence
+* **Arithmetics**   ← operators, order of operations
+* **Flowchart**     ← symbols, control flow representation
+* **Pseudocode**    ← writing logic before code

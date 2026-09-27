@@ -6,7 +6,7 @@
 
 ##  Computer Architecture
 
-![Basic Computer Architecture](./IMG1-Basic_Computer_Architecture.png)
+![Basic Computer Architecture](./../../assets/Basic_Computer_Architecture.png)
 
 * I/O Device: Computer Media of interaction for User
 * CPU: Execute every command, event, and program
