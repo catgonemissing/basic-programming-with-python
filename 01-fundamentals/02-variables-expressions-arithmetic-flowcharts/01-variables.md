@@ -14,17 +14,17 @@ you can change the contents of the label and likewise
 name = "Alice"
 age = 15
 height = 145.5
-is_princesss = True
+is_princess = True
 ```
 
-## List Types 0f Datas
+## List 0f Data Types
 
 | Data Type           | Description                      | Example                                 |
 | ------------------- | -------------------------------- | --------------------------------------- |
 | Integer (`int`)     | Whole numbers                    | `age = 20`                              |
 | Float (`float`)     | Decimal numbers                  | `height = 165.5`                        |
 | String (`str`)      | Text (in quotes)                 | `name = "Alice"`                        |
-| Boolean (`bool`)    | True or False                    | `is_student = True`                     |
+| Boolean (`bool`)    | True or False                    | `is_princess = True`                     |
 | List (`list`)       | Ordered collection, changeable   | `fruits = ["apple", "mango"]`           |
 | Tuple (`tuple`)     | Ordered collection, unchangeable | `point = (3, 5)`                        |
 | Dictionary (`dict`) | Key-value pairs                  | `person = {"name": "Alice", "age": 20}` |

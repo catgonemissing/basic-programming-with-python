@@ -32,10 +32,10 @@ Algorithm
 
 Python
 ```python
-alas = input()
-tinggi = input()
-luas = (alas * tinggi) / 2
-print(luas)
+  alas = int(input())
+  tinggi = int(input())
+  luas = (alas * tinggi) / 2
+  print(luas)
 ```
 
 ## Structure

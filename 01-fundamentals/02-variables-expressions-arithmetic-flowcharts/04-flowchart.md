@@ -6,7 +6,7 @@
 * After building a program:
   Explains the program's flow to other people
 
-So, a flowchart is to represent the components found in a programming language
+So, a flowchart must be able to represent the components found in a programming language
 
 ## Flowchart Symbols
 
